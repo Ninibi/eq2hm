@@ -1,0 +1,73 @@
+/* Style sheet for Holy Might site*/ 
+
+/******** Body Definitions:  Background Colors ********/
+.bodyCharterMain {  background-color: black;  }
+.bodyArchivesMain {  background-color: #000;}
+.bodyCharterApply {  background-color: #43423D;   }
+.bodyCharterRanks {  background-color: #FDC26D;  }
+.bodyCharterCommunication {  background-color: #333333;  }
+.bodyCharterConduct {  background-color: #474B8A;  }
+.bodyCharterRaid {  background-color: #730000;  }
+.bodyCharterDKP {  background-color: #A8ABC9;  }
+.bodyHome {  background-color: #000; }
+.bodyToyBox {  background-color: #000; }
+.bodyToyBoxEvents {  background-color: #261710;  }
+.bodyToyBoxVids {  background-color: #FFC26F;  }
+.bodyToyBoxartsy {  background-color: #8D7861;  }
+.bodyToyBoxstories {  background-color: #241735;  }
+.bodyToyBoxscreenies {  background-color: #1A0E2D;  }
+.bodyToyBoxmisc {  background-color: #1A0E2D;  }
+.bodyLinks {  background-color: silver}
+
+/* vertical dividers - clear, no style applied*/
+.divider25  {  height: 25px;   }
+.divider50  {  height: 50px;   }
+.divider150 {  height: 150px;  }
+.dividerTop {  height: 0px     }
+
+/* all contentXXX classes are to be used on divs */
+/* Main content box for all pages */
+
+.contentAll{  width: 900px;  margin-left: auto;  
+
+/* makes it stay in center of page*/  
+margin-right: auto;  
+
+/* makes it stay in center of page*/  
+color: black; 
+
+/* text color */  
+font-family: Verdana, Arial, Helvetica, sans-serif;  font-size: 9pt; border-width: 1;  border-color: black;  border-style: solid;  }
+
+/* Content box for main page of charter */
+
+.contentCharterMain{  background-color: #698459;  }  
+
+/* colored content box for home page - contentHomeNews goes inside this one*/  
+
+.contentHome{  background-color: #333333;  border-width: 2;  border-color: black;  border-style: solid;  }  
+
+/* narrower content box for home page*/
+
+.contentHomeNews{  width: 850px;  margin-left: auto;  margin-right: auto;  color: black; 
+
+/* text color */  
+
+font-family: Verdana, Arial, Helvetica, sans-serif;  font-size: 10pt;  border-width: 4;  border-color: black;  border-style: solid;   width: 780;  background-color: white; }
+
+/* content box for sub-pages with white background*/
+.ContentCharterDefault,
+.ContentArchivesMain,
+.ContentToyBox, 
+.ContentLinks{  background-color: #FFFFFF}
+
+/* TEXT FORMATTING */
+blockquote {  text-align: left;}a:link{  color: #330066}a:visited{  color: #330066}
+
+/* TABLES */
+table{  border-top: 1px solid;  border-right 1px solid;  border-collapse: collapse;  font-size: 10pt; }  
+/*table header*/
+th {  font-style: bold;  text-align: left; 
+/* background-color: #A8ABC9;*/}  
+/*table cell*/
+td {  border-bottom: 1px solid;  border-left: 1px solid;   }
